@@ -25,20 +25,20 @@ FineMuSe has a balanced distribution between sexist and non-sexist content, with
 
 --- 
 
-<h3>
+<h2>
   <img width="30" height="50" alt="check" src="https://github.com/user-attachments/assets/1763a843-f6ee-4322-9918-55e9629dca34" />
   Annotation Process
-</h3>
+</h2>
 
 We relied on six expert annotators of diverse gender and age to ensure demographic variety. The group was split into two teams, each assigned half of the dataset. Annotation followed a three-step approach: first, annotating text transcripts; second, annotating audio; and finally, annotating videos. Each team annotated the text transcripts and video for their assigned subset, while the other team handled the audio. Inter-annotator agreement was higher for the binary annotation task than for the fine-grained task, highlighting the difficulty of the multi-label classification problem. For the video modality, agreement increased from substantial (0.61–0.80) for text to almost perfect (0.81–1.00) for audio. The following figures illustrate the Fleiss’ Kappa values for the fine-grained sexist categories across text and video modalities in P1 and P2.
 
 <img width="719" height="234" alt="Screenshot 2026-02-05 at 15 08 27" src="https://github.com/user-attachments/assets/b0fee235-38d4-4092-a332-d0724f60887f" />
 
-
-<h4>
+---
+<h2>
   <img width="30" height="50" alt="robot" src="https://github.com/user-attachments/assets/1a1a55e2-93f3-440b-a683-d5dcfe134b54" />
   Evaluation of LLMs and Multimodal LLMs 
-</h4>
+</h2>
 
 We evaluated a wide range of LLMs that process text-only inputs as well as multimodal LLMs that integrate both text and images. The task first requires determining whether a social media post is sexist and, if so, identifying its specific type(s) of sexism. All evaluations were conducted against labels assigned by annotators who had access to the full video. The following figure illustrates the results for the fine-grained task, using Macro F1 as the evaluation metric, computed over all ground-truth sexist instances:
 
